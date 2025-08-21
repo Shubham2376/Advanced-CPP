@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOWNLOADS\ADVANCED-CPP-MAIN\ADVANCED-CPP-1\BUILD\CMAKEFILES\80FB25FD2CBADF3F6B1EF955DF8640F9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1 -BC:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/simplecalculator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

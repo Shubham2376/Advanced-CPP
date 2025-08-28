@@ -34,6 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/_deps/spdlog-build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/maths/cmake_install.cmake")
 endif()
 

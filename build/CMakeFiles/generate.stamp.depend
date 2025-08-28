@@ -12,6 +12,17 @@ C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacro
 C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-C.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/PatchInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/RepositoryInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/UpdateInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/gitclone.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/gitupdate.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/stepscript.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake
@@ -32,3 +43,8 @@ C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/4.1.0
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/4.1.0/CMakeCXXCompiler.cmake
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/4.1.0/CMakeRCCompiler.cmake
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/4.1.0/CMakeSystem.cmake
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/fc-tmp/spdlog/download.cmake
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/fc-tmp/spdlog/patch.cmake
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/fc-tmp/spdlog/spdlog-gitclone.cmake
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/fc-tmp/spdlog/spdlog-gitupdate.cmake
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/fc-tmp/spdlog/update.cmake

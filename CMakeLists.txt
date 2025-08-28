@@ -15,6 +15,25 @@ Calculator/src/calculator.cpp
 # set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
 # set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
 
+include(FetchContent)
+
+#declare the spdlog dependency
+FetchContent_Declare(
+    spdlog
+    GIT_REPOSITORY https://github.com/gabime/spdlog.git
+    GIT_TAG v1.11.0
+)
+# we can do the above thing with this also
+# ExternalProject_Add(
+#     my_dependency
+#     GIT_REPOSITORY https://github.com/some/repo.git
+#     GIT_TAG some_tag
+#     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_PREFIX>
+# )
+
+#make spdlog available
+FetchContent_MakeAvailable(spdlog)
+
 add_subdirectory(maths) #what this piece of code do that it will try to go inside the maths folder and check CMakeLists.txt file and whatever present inside the CMakeLists.txt file it try to execute that 
 
 add_subdirectory(physics)
@@ -23,4 +42,10 @@ include_directories(Calculator/Include)
 
 add_executable(simplecalculator ${SOURCES}) #we access the variable that we define using the ${} 
 
-target_link_libraries(simplecalculator maths physics) #it take first argument executable which we targeting for and second argument the static lib which we targting for 
+# This is how we add spdlog library to our project
+# Link the spdlog library to the executable
+
+target_link_libraries(simplecalculator maths physics spdlog::spdlog) #it take first argument executable which we targeting for and second argument the static lib which we targting for 
+
+#ensure include directories are set up correctly
+target_include_directories(simplecalculator PRIVATE ${spdlog_SOURCE_DIR}/include)

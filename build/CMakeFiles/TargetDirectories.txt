@@ -1,6 +1,8 @@
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/simplecalculator.dir
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/_deps/spdlog-build/CMakeFiles/spdlog.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/_deps/spdlog-build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/maths/CMakeFiles/maths.dir
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/maths/CMakeFiles/ALL_BUILD.dir
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/physics/CMakeFiles/physics.dir

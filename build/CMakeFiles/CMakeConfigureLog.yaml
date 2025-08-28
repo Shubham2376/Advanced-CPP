@@ -1205,3 +1205,850 @@ events:
       Microsoft (R) Incremental Linker Version 14.42.34436.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake:86 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/shared_internal_commands.cmake:926 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1690 (_ep_add_download_command)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1607 (__FetchContent_populateDirect)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)"
+      - "CMakeLists.txt:28 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/simplecalculator/bin/"
+      - "C:/Program Files (x86)/simplecalculator/sbin/"
+      - "C:/Program Files (x86)/simplecalculator/"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/MinGW/bin/git.cmd.com"
+      - "C:/MinGW/bin/git.cmd.exe"
+      - "C:/MinGW/bin/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.com"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.exe"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd"
+      - "C:/Program Files/Git/usr/bin/git.cmd.com"
+      - "C:/Program Files/Git/usr/bin/git.cmd.exe"
+      - "C:/Program Files/Git/usr/bin/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd.com"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/MinGW/bin/git.com"
+      - "C:/MinGW/bin/git.exe"
+      - "C:/MinGW/bin/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/simplecalculator"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/simplecalculator"
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake:86 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/shared_internal_commands.cmake:926 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1690 (_ep_add_download_command)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1607 (__FetchContent_populateDirect)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)"
+      - "CMakeLists.txt:28 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/simplecalculator/bin/"
+      - "C:/Program Files (x86)/simplecalculator/sbin/"
+      - "C:/Program Files (x86)/simplecalculator/"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/MinGW/bin/git.cmd.com"
+      - "C:/MinGW/bin/git.cmd.exe"
+      - "C:/MinGW/bin/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.com"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.exe"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd"
+      - "C:/Program Files/Git/usr/bin/git.cmd.com"
+      - "C:/Program Files/Git/usr/bin/git.cmd.exe"
+      - "C:/Program Files/Git/usr/bin/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd.com"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/MinGW/bin/git.com"
+      - "C:/MinGW/bin/git.exe"
+      - "C:/MinGW/bin/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/simplecalculator"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/simplecalculator"
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake:86 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/shared_internal_commands.cmake:926 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1690 (_ep_add_download_command)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1607 (__FetchContent_populateDirect)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)"
+      - "CMakeLists.txt:28 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/simplecalculator/bin/"
+      - "C:/Program Files (x86)/simplecalculator/sbin/"
+      - "C:/Program Files (x86)/simplecalculator/"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/MinGW/bin/git.cmd.com"
+      - "C:/MinGW/bin/git.cmd.exe"
+      - "C:/MinGW/bin/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.com"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd.exe"
+      - "C:/Program Files/Git/mingw64/bin/git.cmd"
+      - "C:/Program Files/Git/usr/bin/git.cmd.com"
+      - "C:/Program Files/Git/usr/bin/git.cmd.exe"
+      - "C:/Program Files/Git/usr/bin/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd.com"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/Admin/.dotnet/tools/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Ollama/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/bin/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/sbin/git.cmd"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd.com"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd.exe"
+      - "C:/Program Files (x86)/simplecalculator/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/MinGW/bin/git.com"
+      - "C:/MinGW/bin/git.exe"
+      - "C:/MinGW/bin/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/simplecalculator"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/simplecalculator"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/spdlog-src/CMakeLists.txt:142 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-33ghv1"
+      binary: "C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-33ghv1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-33ghv1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1efb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 28-08-2025 19:03:51.
+        
+        Project "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\cmTC_c1efb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c1efb.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\Debug\\".
+          Creating directory "cmTC_c1efb.dir\\Debug\\cmTC_c1efb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c1efb.dir\\Debug\\cmTC_c1efb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c1efb.dir\\Debug\\cmTC_c1efb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c1efb.dir\\Debug\\\\" /Fd"cmTC_c1efb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c1efb.dir\\Debug\\\\" /Fd"cmTC_c1efb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\src.c"
+          src.c
+        C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\cmTC_c1efb.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\cmTC_c1efb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\cmTC_c1efb.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ghv1\\cmTC_c1efb.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/spdlog-src/CMakeLists.txt:142 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-f0w45h"
+      binary: "C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-f0w45h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-f0w45h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97200.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 28-08-2025 19:03:53.
+        
+        Project "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\cmTC_97200.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_97200.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\Debug\\".
+          Creating directory "cmTC_97200.dir\\Debug\\cmTC_97200.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_97200.dir\\Debug\\cmTC_97200.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_97200.dir\\Debug\\cmTC_97200.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_97200.dir\\Debug\\\\" /Fd"cmTC_97200.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_97200.dir\\Debug\\\\" /Fd"cmTC_97200.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\Debug\\cmTC_97200.exe" /INCREMENTAL /ILK:"cmTC_97200.dir\\Debug\\cmTC_97200.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-f0w45h/Debug/cmTC_97200.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-f0w45h/Debug/cmTC_97200.lib" /MACHINE:X64 cmTC_97200.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\cmTC_97200.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\cmTC_97200.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\cmTC_97200.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0w45h\\cmTC_97200.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.90
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/spdlog-src/CMakeLists.txt:142 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-pasjz3"
+      binary: "C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-pasjz3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-pasjz3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0dae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 28-08-2025 19:03:54.
+        
+        Project "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\cmTC_c0dae.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c0dae.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\Debug\\".
+          Creating directory "cmTC_c0dae.dir\\Debug\\cmTC_c0dae.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c0dae.dir\\Debug\\cmTC_c0dae.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c0dae.dir\\Debug\\cmTC_c0dae.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c0dae.dir\\Debug\\\\" /Fd"cmTC_c0dae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c0dae.dir\\Debug\\\\" /Fd"cmTC_c0dae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\Debug\\cmTC_c0dae.exe" /INCREMENTAL /ILK:"cmTC_c0dae.dir\\Debug\\cmTC_c0dae.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-pasjz3/Debug/cmTC_c0dae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/CMakeScratch/TryCompile-pasjz3/Debug/cmTC_c0dae.lib" /MACHINE:X64 cmTC_c0dae.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\cmTC_c0dae.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\cmTC_c0dae.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\cmTC_c0dae.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Admin\\Downloads\\Advanced-CPP-main\\Advanced-CPP-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pasjz3\\cmTC_c0dae.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.87
+        
+      exitCode: 1
+...

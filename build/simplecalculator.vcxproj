@@ -90,7 +90,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -112,10 +112,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -123,7 +123,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>maths\Debug\maths.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>maths\Debug\maths.lib;Debug\physics.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -164,10 +164,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -175,7 +175,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>maths\Release\maths.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>maths\Release\maths.lib;Release\physics.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -193,7 +193,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -216,10 +216,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -227,7 +227,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>maths\MinSizeRel\maths.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>maths\MinSizeRel\maths.lib;MinSizeRel\physics.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -245,7 +245,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -267,10 +267,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\Calculator\Include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\maths\include;C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\physics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -278,7 +278,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>maths\RelWithDebInfo\maths.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>maths\RelWithDebInfo\maths.lib;RelWithDebInfo\physics.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -366,6 +366,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\build\maths\maths.vcxproj">
       <Project>{436B1D00-0522-3A69-A580-42F1482FBAA6}</Project>
       <Name>maths</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\build\physics\physics.vcxproj">
+      <Project>{3F64ACB5-4DEE-3ED0-9A38-6EEAEE9BAC5A}</Project>
+      <Name>physics</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

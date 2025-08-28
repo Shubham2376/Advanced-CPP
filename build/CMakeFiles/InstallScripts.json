@@ -2,7 +2,8 @@
 	"InstallScripts" : 
 	[
 		"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/cmake_install.cmake",
-		"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/maths/cmake_install.cmake"
+		"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/maths/cmake_install.cmake",
+		"C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/physics/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

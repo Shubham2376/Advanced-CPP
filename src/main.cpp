@@ -1,6 +1,7 @@
 #include<iostream>
 #include "calculator.h"
 #include "maths.h"
+#include "physics.h"
 
 using namespace std;
 int main(){
@@ -50,5 +51,6 @@ int main(){
     cout << "Power: " << MathFunctions::power(2,3) << endl;
     #endif
     
+    cout << "Potential Energy: " << physics::calculatePotentialEnergy(23,9.8,10);
     return 0;
 }

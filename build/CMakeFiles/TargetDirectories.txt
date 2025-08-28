@@ -3,3 +3,5 @@ C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/ALL_B
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/maths/CMakeFiles/maths.dir
 C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/maths/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/physics/CMakeFiles/physics.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/build/physics/CMakeFiles/ALL_BUILD.dir

@@ -182,6 +182,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{436B1D00-0522-3A69-A580-42F1482FBAA6}</Project>
       <Name>maths</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\build\physics\physics.vcxproj">
+      <Project>{3F64ACB5-4DEE-3ED0-9A38-6EEAEE9BAC5A}</Project>
+      <Name>physics</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\build\simplecalculator.vcxproj">
       <Project>{BC466314-62BB-37DC-8C1F-DB75CA86B685}</Project>
       <Name>simplecalculator</Name>

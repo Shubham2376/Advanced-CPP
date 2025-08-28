@@ -11,10 +11,16 @@ src/main.cpp
 Calculator/src/calculator.cpp
 )
 
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
+# set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
+# set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
+
 add_subdirectory(maths) #what this piece of code do that it will try to go inside the maths folder and check CMakeLists.txt file and whatever present inside the CMakeLists.txt file it try to execute that 
+
+add_subdirectory(physics)
 
 include_directories(Calculator/Include)
 
 add_executable(simplecalculator ${SOURCES}) #we access the variable that we define using the ${} 
 
-target_link_libraries(simplecalculator maths) #it take first argument executable which we targeting for and second argument the static lib which we targting for 
+target_link_libraries(simplecalculator maths physics) #it take first argument executable which we targeting for and second argument the static lib which we targting for 

@@ -1,0 +1,3 @@
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/stl_demo/build/CMakeFiles/simplecalculator.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/stl_demo/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/stl_demo/build/CMakeFiles/ZERO_CHECK.dir

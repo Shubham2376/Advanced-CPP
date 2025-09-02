@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\multi-threading_demo\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\multi-threading_demo\threading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Downloads\Advanced-CPP-main\Advanced-CPP-1\multi-threading_demo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1A1AAC45-10FB-3D5D-9A91-928B898A834F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

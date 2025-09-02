@@ -1,0 +1,3 @@
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/multi-threading_demo/build/CMakeFiles/multi-threading_demo.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/multi-threading_demo/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Downloads/Advanced-CPP-main/Advanced-CPP-1/multi-threading_demo/build/CMakeFiles/ZERO_CHECK.dir

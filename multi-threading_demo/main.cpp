@@ -4,6 +4,9 @@
 #include <chrono>
 #include <string>
 #include <mutex>
+#include <shared_mutex>
+#include <queue>
+#include <condition_variable>
 using namespace std;
 void startFunction(int& x, string s){
     cout << "Printing from thread function" << endl;
@@ -13,6 +16,49 @@ void startFunction(int& x, string s){
  }
  mutex mt; //simple mutex
  recursive_mutex r_mtx; // Recursive mutex
+
+ timed_mutex t_mtx; //timed mutex
+ 
+int shared_variable = 0;
+// void increment(){
+//     unique_lock<mutex> un(mt,defer_lock);
+//     un.lock();
+//     shared_variable++;
+//     un.unlock();
+//     /*
+//     more code
+//     */
+// }
+
+//shared_mutex mtx;
+// writer code
+void increment(){
+    unique_lock<shared_mutex> ul(mtx);
+    shared_variable++;
+}
+// Reader code
+void printSharedVariable(){
+    shared_lock<shared_mutex> ul(mtx);
+    cout << "Shared Variable " << shared_variable << endl; 
+}
+
+void threadFunction(int id)
+{
+    while (1)
+    {
+        if (t_mtx.try_lock_for(std::chrono::seconds(1)))
+        {
+            std::cout << "Thread " << id << " acquired the lock" << std::endl;
+            std::this_thread::sleep_for(std::chrono::seconds(2)); // Simulate work
+            t_mtx.unlock();
+        }
+        else
+        {
+            std::cout << "Thread " << id << " could not acquire the lock within 1 second" << std::endl;
+        }
+    }
+}
+
  void recursiveFunction(int count)
 {
     if (count <= 0)
@@ -66,6 +112,32 @@ void thread2()
         cout << "Print inside myClass";
     }
  };
+
+const int BUFFER_SIZE = 10;
+queue<int> q;
+condition_variable cv;
+mutex mtx;
+// producer thread
+ void producer(){
+    for(int i = 1; i<=100; i++){
+        unique_lock<mutex> ul(mtx);
+        cv.wait(ul,[](){
+            q.size() < BUFFER_SIZE;
+        });
+        q.push(i);
+        ul.unlock();
+        cv.notify_one();
+    }
+ }
+//  consumer thread
+ void consumer(){
+    while(1){
+        if(q.empty()) return;
+        int data = q.front();
+        q.pop();
+    }
+ }
+
 int main(){
     cout << "multi threading demo" << endl;
     // int x = 50;
@@ -114,9 +186,27 @@ int main(){
     
     // cout << "Multi Threaded Sum: " << res2 << endl;
 
-    thread t1(threadFunction,1);
-    thread t2(threadFunction,2);
+    // thread t1(threadFunction,1);
+    // thread t2(threadFunction,2);
+    // t1.join();
+    // t2.join();
+
+    // thread t1(increment);
+    // thread t2(increment);
+    // thread t3(printSharedVariable);
+    // thread t4(printSharedVariable);
+    // t1.join();
+    // t2.join();
+    // t3.join();
+    // t4.join();
+
+    thread t1(producer);
+    thread t2(producer);
+    thread t3(consumer);
+    thread t4(consumer);
     t1.join();
     t2.join();
+    t3.join();
+    t4.join();
     return 0;
 }

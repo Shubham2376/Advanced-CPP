@@ -3,6 +3,8 @@
         "*.dbclient-js": "javascript",
         "iostream": "cpp",
         "thread": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "future": "cpp"
     }
 }
